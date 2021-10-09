@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: coral;
+}
+
+
+.mainbox {
+    display: flex;
+    width: auto;
+    /*border: 5px solid red;*/
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.mainbox .left {
+    display: inline-flex;
+    border: 2px solid gray;
+    margin: 10px;
+    width: 300px;
+    min-width: 100px;
+    flex: 0 0 auto;  
+}
+.mainbox .right {
+    
+    padding: 10px 25px;
+    border: 2px solid gray;
+    margin: 10px;
+    max-width: 600px;
+    min-width: none;
+    width: 100%;
+    height: auto;
+}
+
+.mainbox .left.items {
+    display: block;
+}

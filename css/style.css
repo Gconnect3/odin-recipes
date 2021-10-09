@@ -1,0 +1,41 @@
+div.gallery {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 140px;
+  }
+.mainbox {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+  
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 300px;
+    }
+
+    h1 {
+        text-align: center;
+        color: coral;
+    }
